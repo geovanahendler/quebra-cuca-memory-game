@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Quebra-Cuca - Tela Inicial</title>
+</head>
+<body>
+  <div id="initial-container">
+    <h1>Quebra-Cuca</h1>
+    <!-- Aqui, chama a função para levar para a página dos níveis -->
+    <button onclick="startGame()">Iniciar</button>
+    <button type="button" id="instrucao"  class="button" onclick="Instrucoes()">Instrução</button>
+  </div>
+
+  <div id="displayInstruction" style="display:none">
+    <button id="closeInstruction" class="close" onclick="fecharInstrucoes()">X</button>
+    <h2>Instruções</h2>
+    <p>1. <strong>Objetivo:</strong> O objetivo é combinar pares de cartas idênticas, ou seja, cartas com as mesmas imagens ou símbolos.</p>
+    <p>2. <strong>Memorização:</strong> O desafio principal é memorizar a posição das cartas viradas. Conforme os jogadores viram as cartas, eles precisam tentar se lembrar das posições das cartas que foram viradas anteriormente.</p>
+    <p>3. <strong>Fim do Jogo:</strong> O jogo termina quando todas as cartas forem combinadas em pares ou o tempo acabar.</p>
+  </div>
+  
+  </div>
+
+  <!-- Função para levar para a página dos níveis -->
+  <script>
+    function startGame() {
+      window.location.href = 'niveis.html'; 
+    }
+    function Instrucoes() {
+      const instructionDiv = document.getElementById('displayInstruction');
+      if (instructionDiv.style.display === 'none' || instructionDiv.style.display === '') {
+        instructionDiv.style.display = 'block';
+      } else {
+        instructionDiv.style.display = 'none';
+      }
+    }
+    function fecharInstrucoes() {
+      const instructionDiv = document.getElementById('displayInstruction');
+      instructionDiv.style.display = 'none';
+    }
+  </script>
+</body>
+</html>

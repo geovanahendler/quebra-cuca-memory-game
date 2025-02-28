@@ -1,0 +1,20 @@
+/* Estilos para o corpo da página */
+body {
+  /* Centralizar os elementos vertical e horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Layout como coluna */
+  height: 100vh; /* Definir a altura do corpo como 100% da altura da viewport */
+  margin: 0; /* Remover margens padrão */
+  background-color: #A993DB; /* Cor de fundo */
+}
+  /* Estilos para o contêiner do jogo */
+  #game-container {
+    /* Criar layout de grade com 4 colunas iguais */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* Definir o espaçamento entre os elementos da grade */
+    grid-gap: 10px;
+  }
+

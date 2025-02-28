@@ -1,0 +1,84 @@
+/* Estilos para as cartas do jogo */
+.card {
+  /* Definir as dimensões das cartas */
+  width: 100px;
+  height: 100px;
+  perspective: 1000px; /* Definir a perspectiva 3D para os elementos filhos */
+}
+
+.card img {
+  width: 100%; /* Garantir que a imagem ocupe todo o espaço da carta */
+  height: 100%; /* Garantir que a imagem ocupe todo o espaço da carta */
+  object-fit: cover; /* Ajuste para cobrir totalmente o espaço */
+  border-radius: 8px;
+}
+
+/* Estilos para o conteúdo interno das cartas */
+.card .card-inner {
+  /* Definir as dimensões das cartas internas */
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /* Definir o estilo de transformação 3D */
+  transition: transform 0.3s ease-in-out;   /* Adicionar transição suave para as transformações */
+}
+
+/* Estilos para as cartas que foram viradas */
+.card.flipped .card-inner {
+  transform: rotateY(180deg);  /* Rotacionar a carta em torno do eixo Y para mostrar o lado de trás */
+}
+
+/* Estilos para o lado frontal e traseiro das cartas */
+.card-front,
+.card-back {
+  position: absolute; /* Posição absoluta para cobrir completamente o conteúdo da carta */
+  /* Dimensões das cartas */
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Ocultar a face traseira durante as transformações */
+  /* Centralizar o conteúdo vertical e horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Definir o tamanho da fonte */
+  border-radius: 8px;  /* Suavizar as bordas */
+  box-shadow: 0 0 5px #924aa0; /* Adicionar sombra à carta */
+  background-color: #DA419D; /* Cor de fundo */
+}
+
+/* Estilos para a face traseira da carta */
+.card-back {
+  transform: rotateY(180deg);  /* Rotacionar a face traseira em torno do eixo Y */
+}
+
+/* Estilos de hover para as cartas */
+.card:hover {
+  transform: scale(1.05); /* Aumentar o tamanho da carta em 5% */
+  box-shadow: 0 0 5px #924aa0; /* Sombra sutil */
+  cursor: pointer; /* Mudar o cursor do mouse */
+  border-radius: 8px; /* Arredondar as bordas */
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-front,
+  .card-back {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card-front,
+  .card-back {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles/niveis.css">
+  <title>Escolha de Nível</title>
+</head>
+<body>
+  <div id="initial-container">
+    <h1>Escolha seu nível</h1>
+     <!-- Aqui, chama a função para levar para nível de jogo -->
+    <button onclick="chooseLevel('facil')">Fácil</button>
+    <button onclick="chooseLevel('medio')">Médio</button>
+    <button onclick="chooseLevel('dificil')">Difícil</button>
+  </div>
+  <!-- Função para levar para a página de cada nível de jogo -->
+  <script>
+    function chooseLevel(level) {
+      window.location.href = level + '.html';
+    }
+  </script>
+</body>
+</html>
