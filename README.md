@@ -21,10 +21,21 @@ Voltar à tela inicial
 
 **Screenshots**
 
+![image](https://github.com/user-attachments/assets/92639be4-e668-4866-816f-6486924c02b6)
 
+![image](https://github.com/user-attachments/assets/2bb0034a-f608-49db-b47c-a4305083b953)
 
+![image](https://github.com/user-attachments/assets/8f4daabd-7b18-4e11-8efe-cdc4c895edff)
 
+![image](https://github.com/user-attachments/assets/62c77340-968b-4682-9385-800c518c5595)
 
+![image](https://github.com/user-attachments/assets/3b3c6c98-cc95-48a5-bf20-752ec5ce174c)
+
+![image](https://github.com/user-attachments/assets/d79ec58e-ba7d-47c1-a4e5-908ffc47dfd4)
+
+![image](https://github.com/user-attachments/assets/9e8b4756-a58b-45e6-ab89-92aebdf20afa)
+
+![image](https://github.com/user-attachments/assets/af890616-77ca-4acc-970b-2aa1bc0da5a8)
 
 
 **Como Jogar**
