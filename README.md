@@ -49,7 +49,7 @@ Para rodar o jogo localmente, siga os passos abaixo:
 
 **Clone este repositório:**
 
-git clone https://github.com/seu-usuario/quebra-cuca.git
+git clone https://github.com/geovanahendler/quebra-cuca-memory-game.git
 
 **Acesse o diretório do projeto:**
 
