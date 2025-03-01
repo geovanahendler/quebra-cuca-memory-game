@@ -1,9 +1,9 @@
-# Quebra Cuca
+## Quebra Cuca
 
-**Descrição**
+## **Descrição**
 Quebra Cuca é um jogo da memória desenvolvido com HTML, CSS e JavaScript. O jogo foi criado para oferecer um desafio divertido, estimulando a memorização dos jogadores com diferentes níveis de dificuldade.
 
-**Funcionalidades**
+## **Funcionalidades**
 
 Três Níveis de Jogo:
 
@@ -19,7 +19,7 @@ Pausar o jogo
 Recomeçar o nível
 Voltar à tela inicial
 
-**Screenshots**
+## **Screenshots**
 
 ![image](https://github.com/user-attachments/assets/92639be4-e668-4866-816f-6486924c02b6)
 
@@ -38,7 +38,7 @@ Voltar à tela inicial
 ![image](https://github.com/user-attachments/assets/af890616-77ca-4acc-970b-2aa1bc0da5a8)
 
 
-**Como Jogar**
+## **Como Jogar**
 
 **Selecione o Nível:**
 
@@ -54,7 +54,7 @@ Use o botão de pausar para interromper o jogo.
 Utilize a opção de recomeçar para reiniciar o nível.
 Clique em voltar à tela inicial para escolher outro nível ou reiniciar a partida.
 
-**Instalação**
+## **Instalação**
 
 Para rodar o jogo localmente, siga os passos abaixo:
 
@@ -67,11 +67,11 @@ git clone https://github.com/geovanahendler/quebra-cuca-memory-game.git
 cd quebra-cuca
 Abra o arquivo index.html em seu navegador preferido.
 
-**Tecnologias Utilizadas**
+## **Tecnologias Utilizadas**
 
 HTML5
 CSS3
 JavaScript
 
-**Créditos**
+## **Créditos**
 Desenvolvido por Geovana Hendler. Se desejar contribuir ou sugerir melhorias, fique à vontade para abrir um issue ou um pull request.
